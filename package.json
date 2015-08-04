@@ -1,0 +1,32 @@
+{
+  "name": "twitter-contest-winner",
+  "version": "0.0.1",
+  "description": "Wins twitter contests",
+  "main": "app.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cwramsey/twitter-contest-winner.git"
+  },
+  "keywords": [
+    "twitter",
+    "contest",
+    "node",
+    "javascript"
+  ],
+  "author": "Chris Ramsey",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cwramsey/twitter-contest-winner/issues"
+  },
+  "homepage": "https://github.com/cwramsey/twitter-contest-winner#readme",
+  "dependencies": {
+    "args": "0.0.3",
+    "colors": "^1.1.2",
+    "nedb": "^1.1.2",
+    "pretty-print": "^1.0.0",
+    "twitter": "^1.2.5"
+  }
+}
