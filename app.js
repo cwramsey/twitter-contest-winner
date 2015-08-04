@@ -1,6 +1,5 @@
 var colors = require('colors'),
     twitter = require('twitter'),
-    nedb = require('nedb')
     print = require('pretty-print'),
     tweet_helpers = require('./helpers/tweets'),
     keywords = require('./configs/keywords'),
@@ -31,11 +30,6 @@ if (parsed_options.percent < 1) {
 }
 
 console.log('Processing %s% of tweets.'.yellow, parsed_options.percent);
-
-console.log('Starting'.green);
-console.log('Connecting to DB'.green);
-
-console.log('Successfully connected'.green);
 console.log('Connecting to Twitter stream'.green);
 
 var client = new twitter(require('./configs/twitter_credentials'));

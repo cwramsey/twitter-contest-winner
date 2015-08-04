@@ -25,8 +25,6 @@
   "dependencies": {
     "args": "0.0.3",
     "colors": "^1.1.2",
-    "nedb": "^1.1.2",
-    "pretty-print": "^1.0.0",
     "twitter": "^1.2.5"
   }
 }
