@@ -4,7 +4,6 @@ var colors = require('colors'),
     print = require('pretty-print'),
     tweet_helpers = require('./helpers/tweets'),
     keywords = require('./configs/keywords'),
-    addFollower = require('./helpers/followers'),
     args = require('args');
 
 var options = args.Options.parse([
