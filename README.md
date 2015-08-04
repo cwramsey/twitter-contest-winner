@@ -36,3 +36,10 @@ If you'd like to change the phrases it tracks in the stream, you can modify `con
 It's a simple array of strings that gets joined for Twitter's purposes.
 
 For more information on the types of phrases you can track, [see this page](https://dev.twitter.com/streaming/overview/request-parameters#track).
+
+#Improvements
+
+* Track which tweets have already been retweeted
+* Smarter base tweet finding (There are cases where twitter doesn't specify if something is a retweet/reply/etc and you won't be retweeting the original tweet)
+* Allow for multiple accounts to be running at the same time
+* Implement OAuth to allow for easy multiple accounts
